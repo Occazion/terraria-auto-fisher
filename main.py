@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+import os
 import sys
 import time
 import configparser
@@ -9,7 +9,7 @@ from typing import Optional
 
 # UI Imports
 from PyQt6.QtCore import (Qt, QTimer, pyqtSignal, QObject, QThread)
-from PyQt6.QtGui import QPixmap, QImage, QCursor
+from PyQt6.QtGui import QPixmap, QImage, QCursor, QIcon
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QLabel,
                              QCheckBox, QFrame, QFormLayout, QHBoxLayout,
                              QVBoxLayout, QSpinBox, QPushButton,
@@ -226,6 +226,9 @@ class AppUi(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle(f'AutoFisher v{__version__}')
+        icon_path = "icon.ico"
+        if os.path.exists(icon_path):
+            self.setWindowIcon(QIcon(icon_path))
 
         self.config = configparser.ConfigParser()
         self.worker: Optional[FisherWorker] = None
