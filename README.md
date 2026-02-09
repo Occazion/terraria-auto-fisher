@@ -3,8 +3,9 @@
 
 # 🎣 Terraria AutoFisher (Visual & Audio)
 
-## **Version:** 2
-## **Author:** Inspired by alexesmet/terraria-auto-fisher
+**Version:** 2
+
+**Author:** Vibecoded & Inspired by alexesmet/terraria-auto-fisher
 
 A high-performance, external fishing bot designed for **Terraria** (and compatible with Minecraft, WoW, etc.). It features two distinct detection modes: **Visual Motion Detection** and **Advanced Audio Pattern Matching**, allowing you to fish in any weather condition or lighting.
 
