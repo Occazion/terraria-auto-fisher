@@ -21,7 +21,6 @@ A high-performance, external fishing bot designed for **Terraria** (and compatib
 * **Background Noise Filtering:** Automatically filters out wind, rain, and music using High-Pass filters and Spectral Gating.
 * **Profile Manager:** Save and load configurations for different biomes (e.g., "Ocean", "Cavern", "Lava").
 * **Safety Features:**
-* Randomized reaction times (human-like).
 * Auto-timeout (re-casts if no fish is caught in 10s).
 * Safe Shutdown (prevents driver crashes).
 
