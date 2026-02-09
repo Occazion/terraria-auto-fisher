@@ -4,7 +4,7 @@
 # 🎣 Terraria AutoFisher (Visual & Audio)
 
 **Version:** 1.8 (Stable + Smart Training)
-**Author:** Alexei Metlitski
+**Author:** Inspired by alexesmet/terraria-auto-fisher
 
 A high-performance, external fishing bot designed for **Terraria** (and compatible with Minecraft, WoW, etc.). It features two distinct detection modes: **Visual Motion Detection** and **Advanced Audio Pattern Matching**, allowing you to fish in any weather condition or lighting.
 
