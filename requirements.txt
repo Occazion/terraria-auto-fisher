@@ -1,0 +1,10 @@
+PyQt6
+opencv-python
+numpy
+PyAutoGUI
+pynput
+sounddevice
+soundfile
+scipy
+Pillow
+pyinstaller
